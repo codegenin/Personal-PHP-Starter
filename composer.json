@@ -1,0 +1,7 @@
+{
+  "name": "London Carpet Cleaners",
+  "require": {
+    "smarty/smarty": "~3.1",
+    "simplon/mysql": "*"
+  }
+}
