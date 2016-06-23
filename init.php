@@ -13,12 +13,7 @@ include_once VENDOR . 'autoload.php';
 include_once CONFIG . 'settings.php';
 
 // Initialize database connection
-$dbConn = new \Simplon\Mysql\Mysql(
-    $configDatabase['host'],
-    $configDatabase['user'],
-    $configDatabase['pass'],
-    $configDatabase['database']
-);
+$db = new MysqliDb ($configDatabase['host'], $configDatabase['user'],$configDatabase['pass'],$configDatabase['database']);
 
 // Initialize Smarty Engine
 $smarty = new Smarty();

@@ -2,6 +2,7 @@
   "name": "London Carpet Cleaners",
   "require": {
     "smarty/smarty": "~3.1",
-    "simplon/mysql": "*"
+    "phpmailer/phpmailer": "~5.2",
+    "joshcam/mysqli-database-class": "dev-master"
   }
 }
